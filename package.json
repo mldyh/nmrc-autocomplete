@@ -1,16 +1,12 @@
 {
-  "name": "intro-storybook-react-template",
+  "name": "nmrc-autocomplete",
   "version": "0.2.0",
-  "description": "Starter template to get up and running quickly with React and Storybook",
-  "author": "Chromatic <https://chromatic.com/>",
+  "description": "Autocomplete React component. Buit with React, Tailwind, Chromatic",
+  "author": {
+    "name": "Maulidiyah",
+    "email": "https://github.com/mldyh"
+  },
   "type": "module",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/chromaui/intro-storybook-react-template"
-  },
-  "bugs": {
-    "url": "https://github.com/chromaui/intro-storybook-react-template/issues"
-  },
   "license": "MIT",
   "private": true,
   "dependencies": {
@@ -30,7 +26,8 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "init-msw": "msw init public/",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "chromatic": "npx chromatic --project-token=chpt_6af890f87bd824e"
   },
   "devDependencies": {
     "@storybook/addon-essentials": "^7.5.2",
@@ -45,6 +42,7 @@
     "@types/react": "^18.0.28",
     "@types/react-dom": "^18.0.11",
     "@vitejs/plugin-react": "^3.1.0",
+    "chromatic": "^10.0.0",
     "eslint": "^8.55.0",
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-storybook": "^0.6.15",
